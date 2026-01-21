@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h> // to use malloc
 #include <time.h> // to find time the whole program took to run
 
@@ -75,3 +75,4 @@ int main()
     free_memory(P,n);
     return 0;
 }
+
