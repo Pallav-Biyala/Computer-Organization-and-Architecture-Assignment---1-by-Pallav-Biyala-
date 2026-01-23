@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.4260' (creator: callgrind-3.22.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 1075654915
+Trigger: Program termination
+Profiled target:  ./mm_O2 (PID 4260, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                     
+--------------------------------------------------------------------------------
+8,604,660,667 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                      file:function
+--------------------------------------------------------------------------------
+8,603,067,456 (99.98%)  ???:main [/home/hunterslord/Assignment_1/mm_O2]
+
