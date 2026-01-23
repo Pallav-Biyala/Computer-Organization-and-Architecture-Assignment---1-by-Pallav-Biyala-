@@ -1,0 +1,122 @@
+S--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.5418' (creator: callgrind-3.22.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 1167628048
+Trigger: Program termination
+Profiled target:  python3 Matrix_multiplication_numpy.py (PID 5418, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                     
+--------------------------------------------------------------------------------
+9,031,639,073 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                      file:function
+--------------------------------------------------------------------------------
+8,599,371,776 (95.21%)  ???:0x0000000000038150 [/usr/lib/python3/dist-packages/numpy/core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so]
+   45,760,142 ( 0.51%)  ???:_PyEval_EvalFrameDefault'2 [/usr/bin/python3.12]
+   35,699,185 ( 0.40%)  ???:0x000000000012ad30 [/usr/lib/python3/dist-packages/numpy/core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so]
+   30,219,338 ( 0.33%)  ???:0x00000000005724a0 [/usr/bin/python3.12]
+   16,379,789 ( 0.18%)  ???:0x000000000059bf00 [/usr/bin/python3.12]
+   10,223,753 ( 0.11%)  ???:0x00000000002e9e50 [/usr/lib/python3/dist-packages/numpy/core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so]
+   10,109,229 ( 0.11%)  ???:PyObject_Free [/usr/bin/python3.12]
+    9,581,137 ( 0.11%)  ???:0x00000000006029b0'2 [/usr/bin/python3.12]
+    8,943,603 ( 0.10%)  ???:PyObject_Malloc [/usr/bin/python3.12]
+    8,278,649 ( 0.09%)  ???:0x000000000061c8d0 [/usr/bin/python3.12]
+    6,656,016 ( 0.07%)  ???:_Py_Dealloc [/usr/bin/python3.12]
+    6,570,587 ( 0.07%)  ???:0x000000000061d880 [/usr/bin/python3.12]
+    6,289,256 ( 0.07%)  ???:_Py_HashBytes [/usr/bin/python3.12]
+    5,834,903 ( 0.06%)  ???:0x0000000000609550 [/usr/bin/python3.12]
+    5,719,073 ( 0.06%)  ???:0x000000000061d820 [/usr/bin/python3.12]
+    5,518,067 ( 0.06%)  ???:PyUnicode_FromKindAndData [/usr/bin/python3.12]
+    5,269,623 ( 0.06%)  ???:0x000000000005a3f0 [/usr/lib/python3/dist-packages/numpy/core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so]
+    4,496,912 ( 0.05%)  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:__memcpy_avx_unaligned_erms [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    4,282,836 ( 0.05%)  ???:0x0000000000576760 [/usr/bin/python3.12]
+    4,220,587 ( 0.05%)  ???:_Py_Dealloc'2 [/usr/bin/python3.12]
+    4,152,496 ( 0.05%)  ???:0x0000000000591550 [/usr/bin/python3.12]
+    4,023,194 ( 0.04%)  ???:0x0000000000559930 [/usr/bin/python3.12]
+    3,953,737 ( 0.04%)  ???:PyDict_SetItem [/usr/bin/python3.12]
+    3,868,137 ( 0.04%)  ???:0x00000000005ff1e0 [/usr/bin/python3.12]
+    3,639,803 ( 0.04%)  ???:_PyObject_GenericGetAttrWithDict [/usr/bin/python3.12]
+    3,436,525 ( 0.04%)  ???:PyUnicode_InternInPlace [/usr/bin/python3.12]
+    3,407,967 ( 0.04%)  ???:0x00000000002e90d0 [/usr/lib/python3/dist-packages/numpy/core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so]
+    3,303,605 ( 0.04%)  ???:0x00000000005f7680 [/usr/bin/python3.12]
+    2,979,130 ( 0.03%)  ./string/../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:__memset_avx2_unaligned_erms [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    2,882,925 ( 0.03%)  ???:0x0000000000603ed0 [/usr/bin/python3.12]
+    2,839,905 ( 0.03%)  ???:0x00000000005932c0 [/usr/bin/python3.12]
+    2,805,204 ( 0.03%)  ???:_PyDict_GetItem_KnownHash [/usr/bin/python3.12]
+    2,704,377 ( 0.03%)  ???:_PyType_Lookup [/usr/bin/python3.12]
+    2,272,907 ( 0.03%)  ./malloc/./malloc/malloc.c:_int_malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    2,246,674 ( 0.02%)  ???:_PyObject_GC_New [/usr/bin/python3.12]
+    2,210,073 ( 0.02%)  ???:_PyCode_New [/usr/bin/python3.12]
+    2,075,683 ( 0.02%)  ./elf/./elf/dl-lookup.c:do_lookup_x [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    2,043,332 ( 0.02%)  ???:PyDict_SetDefault [/usr/bin/python3.12]
+    2,009,519 ( 0.02%)  ???:0x00000000005d5b20 [/usr/bin/python3.12]
+    1,968,720 ( 0.02%)  ???:_PyTrash_end [/usr/bin/python3.12]
+    1,946,558 ( 0.02%)  ???:0x00000000005e32b0 [/usr/bin/python3.12]
+    1,835,060 ( 0.02%)  ???:0x00000000002e9780 [/usr/lib/python3/dist-packages/numpy/core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so]
+    1,738,210 ( 0.02%)  ???:PyErr_Occurred [/usr/bin/python3.12]
+    1,720,686 ( 0.02%)  ???:_PyTuple_MaybeUntrack [/usr/bin/python3.12]
+    1,720,052 ( 0.02%)  ???:PyObject_GC_Del [/usr/bin/python3.12]
+    1,662,310 ( 0.02%)  ???:PyDict_GetItemWithError [/usr/bin/python3.12]
+    1,640,170 ( 0.02%)  ???:PyObject_RichCompareBool [/usr/bin/python3.12]
+    1,551,578 ( 0.02%)  ???:0x0000000000550cd0 [/usr/bin/python3.12]
+    1,541,940 ( 0.02%)  ???:_Py_NewReference [/usr/bin/python3.12]
+    1,520,595 ( 0.02%)  ???:_PyTrash_begin [/usr/bin/python3.12]
+    1,488,045 ( 0.02%)  ???:_PyObject_GC_NewVar [/usr/bin/python3.12]
+    1,480,286 ( 0.02%)  ???:PyList_Append [/usr/bin/python3.12]
+    1,327,947 ( 0.01%)  ???:0x0000000000590770 [/usr/bin/python3.12]
+    1,276,734 ( 0.01%)  ???:PyObject_GC_UnTrack [/usr/bin/python3.12]
+    1,262,905 ( 0.01%)  ???:_PyFunction_Vectorcall'2 [/usr/bin/python3.12]
+    1,212,757 ( 0.01%)  ???:PyObject_IS_GC [/usr/bin/python3.12]
+    1,180,525 ( 0.01%)  ???:0x00000000006040a0 [/usr/bin/python3.12]
+    1,144,931 ( 0.01%)  ???:_Py_hashtable_get [/usr/bin/python3.12]
+    1,129,023 ( 0.01%)  ???:PyTuple_New [/usr/bin/python3.12]
+    1,119,376 ( 0.01%)  ???:0x00000000005737b0 [/usr/bin/python3.12]
+    1,098,051 ( 0.01%)  ???:PyDict_Next [/usr/bin/python3.12]
+    1,085,507 ( 0.01%)  ???:0x000000000059fc90 [/usr/bin/python3.12]
+    1,084,843 ( 0.01%)  ???:PyType_IsSubtype [/usr/bin/python3.12]
+    1,078,288 ( 0.01%)  ???:PyObject_GetAttr [/usr/bin/python3.12]
+    1,051,558 ( 0.01%)  ???:_PyUnicode_JoinArray [/usr/bin/python3.12]
+    1,042,386 ( 0.01%)  ???:PyUnicode_FromString [/usr/bin/python3.12]
+    1,036,257 ( 0.01%)  ???:0x00000000005a6a50 [/usr/bin/python3.12]
+    1,022,348 ( 0.01%)  ???:0x0000000000574aa0 [/usr/bin/python3.12]
+    1,021,611 ( 0.01%)  ???:PyMem_Free [/usr/bin/python3.12]
+      999,847 ( 0.01%)  ???:0x00000000005f7ed0 [/usr/bin/python3.12]
+      953,271 ( 0.01%)  ???:0x00000000005918c0 [/usr/bin/python3.12]
+      948,985 ( 0.01%)  ???:PyType_GenericAlloc [/usr/bin/python3.12]
+      930,594 ( 0.01%)  ./malloc/./malloc/malloc.c:_int_free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+      861,019 ( 0.01%)  ???:PyObject_SetAttr [/usr/bin/python3.12]
+      854,570 ( 0.01%)  ???:PyObject_RichCompareBool'2 [/usr/bin/python3.12]
+      843,099 ( 0.01%)  ./string/../sysdeps/x86_64/multiarch/memcmp-avx2-movbe.S:__memcmp_avx2_movbe [/usr/lib/x86_64-linux-gnu/libc.so.6]
+      842,902 ( 0.01%)  ???:PyFunction_New [/usr/bin/python3.12]
+      839,507 ( 0.01%)  ???:0x00000000005a6660 [/usr/bin/python3.12]
+      833,896 ( 0.01%)  ???:PyObject_GetItem [/usr/bin/python3.12]
+      820,529 ( 0.01%)  ???:0x0000000000591260 [/usr/bin/python3.12]
+      813,674 ( 0.01%)  ???:_PyObject_MakeTpCall [/usr/bin/python3.12]
+      812,282 ( 0.01%)  ???:0x00000000005992b0 [/usr/bin/python3.12]
+      797,548 ( 0.01%)  ???:0x0000000000575fb0 [/usr/bin/python3.12]
+      790,426 ( 0.01%)  ???:0x000000000058b380 [/usr/bin/python3.12]
+      785,963 ( 0.01%)  ./string/../sysdeps/x86_64/multiarch/strlen-avx2.S:__strlen_avx2 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+      738,876 ( 0.01%)  ???:_PyObject_VisitManagedDict [/usr/bin/python3.12]
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  ./elf/./elf/dl-lookup.c
+  ./malloc/./malloc/malloc.c
+  ./string/../sysdeps/x86_64/multiarch/memcmp-avx2-movbe.S
+  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+  ./string/../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S
+  ./string/../sysdeps/x86_64/multiarch/strlen-avx2.S
+
