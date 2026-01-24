@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.3126' (creator: callgrind-3.22.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 120524204050
+Trigger: Program termination
+Profiled target:  python3 Matrix_multiplication.py (PID 3126, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                       
+--------------------------------------------------------------------------------
+686,758,461,264 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                        file:function
+--------------------------------------------------------------------------------
+234,856,198,248 (34.20%)  ???:_PyEval_EvalFrameDefault [/usr/bin/python3.12]
+225,528,492,431 (32.84%)  ???:0x00000000005724a0 [/usr/bin/python3.12]
+ 53,660,347,061 ( 7.81%)  ???:PyDict_GetItemWithError [/usr/bin/python3.12]
+ 48,653,857,955 ( 7.08%)  ???:PyObject_Free [/usr/bin/python3.12]
+ 34,337,464,076 ( 5.00%)  ???:PyObject_Malloc [/usr/bin/python3.12]
+ 31,990,054,058 ( 4.66%)  ???:PyDict_SetItem [/usr/bin/python3.12]
+ 16,779,912,030 ( 2.44%)  ???:0x00000000005669b0 [/usr/bin/python3.12]
+ 15,995,960,232 ( 2.33%)  ???:0x0000000000567150 [/usr/bin/python3.12]
+ 11,173,230,320 ( 1.63%)  ???:PyLong_FromLong [/usr/bin/python3.12]
+  4,722,181,878 ( 0.69%)  ???:_Py_NewReference [/usr/bin/python3.12]
+  4,482,169,928 ( 0.65%)  ???:0x0000000000562e90 [/usr/bin/python3.12]
+
